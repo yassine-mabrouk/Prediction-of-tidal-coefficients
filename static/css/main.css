@@ -11,7 +11,7 @@ body {
     font-family: "Sora", sans-serif;
     line-height: 1.7;
     color: var(--body);
-    background-color: #EFEFEF;
+    background-color: #b41010;
 }
 
 h1,h2,h3,h4,h5,h6,h7
@@ -166,9 +166,8 @@ form{
     display: flex;
     flex-direction: row;
 }
-.chartBox {
-    width: 700px;
-    padding: 20px;
+
+#myChart {
     border-radius: 20px;
     border: solid 3px rgb(255, 202, 26);
     background: white;
