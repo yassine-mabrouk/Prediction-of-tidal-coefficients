@@ -1,21 +1,20 @@
 console.log("connect")
+// get tablea 
 var table = document.getElementById("dataTable");
-console.log("===========tables=================");
-console.log(table);
+// variables to set data 
 var  minValues=[];
 var maxValues=[];
 var dates=[];
+// insert data from table to variables 
 for (var i = 1; i < table.rows.length; i++) {
 
     dates.push( table.rows[i].cells[0].innerHTML);
     console.log(table.rows[i].cells[0].innerHTML);
     minValues.push( table.rows[i].cells[1].innerHTML);
     maxValues.push(table.rows[i].cells[2].innerHTML);
-    //data2.push(item);
+  
 }
-console.log(minValues);
-// console.log(maxValues);
- //console.log(dates);
+// afficher data 
 
        const data = {
         labels: dates,
